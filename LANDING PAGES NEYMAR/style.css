@@ -63,3 +63,55 @@ nav a {
     color: #FFF;
     font-size: 18px;
 }
+
+.neymar-meio-container {
+    margin-left: 14%;
+    margin-top: 12%;
+    max-width: 100%;
+}
+
+.meio-neymar h1 {
+    color: #FFF;
+    font-size: 68px;
+}
+
+.meio-neymar p {
+    color: #FFF;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+
+.btn {
+    background-color: #da2535;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    width: 150px;
+}
+
+.resultados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 6rem;
+}
+
+.resultados img {
+    width: 100px;
+    height: auto;
+}
+
+.resultados h3 {
+    font-size: 32px;
+}
+
+.resultados h2, p {
+    font-size: 62px;
+}
