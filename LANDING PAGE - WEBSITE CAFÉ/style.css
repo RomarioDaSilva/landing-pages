@@ -9,7 +9,7 @@
 }
 
 html::-webkit-scrollbar {
-    width: 5rem;
+    width: .5rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -17,7 +17,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: black;
+    background-color: #d3ad7f;
 }
 
 body {
@@ -105,7 +105,7 @@ hr {
 
 .c-title button {
     margin-top: 2rem;
-    background-color: #d3ad74;
+    background-color: #d3ad7f;
     color: #FFF;
     font-size: 1.2rem;
     padding: 10px 15px;
@@ -116,4 +116,149 @@ hr {
 .c-title button:hover {
     letter-spacing: 2px;
     transition: 0.3s all;
+}
+
+.secao-1 {
+    padding: 5rem;
+}
+
+.secao-1 h1 {
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.secao-1 span {
+    color: #d3ad7f;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.sobre-nos img {
+    max-width: 100%;
+    width: 80rem;
+    height: auto;
+}
+
+.sobre-nos-titulo {
+    margin-left: 1.3rem;
+}
+
+.sobre-nos-titulo h2 {
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.sobre-nos-titulo p {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    width: 45rem;
+}
+
+.sobre-nos-titulo button {
+    margin-top: 2rem;
+    background-color: #d3ad7f;
+    color: #FFF;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sobre-nos-titulo button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.secao-2 h1 {
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.secao-2 span {
+    color: #d3ad7f;
+}
+
+.container-card-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: solid 1px rgba(255, 255, 255, .3);
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+    background-color: #0d0d0f;
+}
+
+.card img {
+    width: 120px;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.preco {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.preco p {
+    color: #ccc;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+
+.card button {
+    margin-top: 2rem;
+    background-color: #d3ad7f;
+    color: #FFF;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card span {
+    color: #FFF;
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+#container-card-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
