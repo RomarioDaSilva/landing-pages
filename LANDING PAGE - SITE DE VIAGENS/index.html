@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+
     <title>Romas Viagens</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header class="header">
-        
+
         <a href="#" class="logo"><i class="fas fa-hiking"></i> travel.</a>
 
         <nav class="navbar">
@@ -43,64 +47,61 @@
 
     <section class="home" id="home">
 
-        <div class="home-slider">
+        <div class="swiper home-slider">
 
-            <div class="wrapper">
-                <div class="slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
                     <div class="box" style="background: url(img/home-bg-1.jpg) no-repeat;">
                         <div class="content">
                             <span>never stop</span>
                             <h3>exploring</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde velit voluptates,
-                                 laudantium omnis suscipit neque asperiores doloremque repellat nam error itaque provident modi expedita alias dolore non voluptatibus perferendis deleniti.</p>
+                                laudantium omnis suscipit neque asperiores doloremque repellat nam error itaque
+                                provident modi expedita alias dolore non voluptatibus perferendis deleniti.</p>
                             <a href="#" class="btn">get started</a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
-
-        <div class="home-slider">
-
-            <div class="wrapper">
-                <div class="slider">
+                <div class="swiper-slide">
                     <div class="box second" style="background: url(img/home-bg-2.jpg) no-repeat;">
                         <div class="content">
                             <span>make tour</span>
                             <h3>amazing</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde velit voluptates,
-                                 laudantium omnis suscipit neque asperiores doloremque repellat nam error itaque provident modi expedita alias dolore non voluptatibus perferendis deleniti.</p>
+                                laudantium omnis suscipit neque asperiores doloremque repellat nam error itaque
+                                provident modi expedita alias dolore non voluptatibus perferendis deleniti.</p>
                             <a href="#" class="btn">get started</a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
-
-        <div class="home-slider">
-
-            <div class="wrapper">
-                <div class="slider">
+                <div class="swiper-slide">
                     <div class="box" style="background: url(img/home-bg-3.jpg) no-repeat;">
                         <div class="content">
                             <span>explore the</span>
                             <h3>new world</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde velit voluptates,
-                                 laudantium omnis suscipit neque asperiores doloremque repellat nam error itaque provident modi expedita alias dolore non voluptatibus perferendis deleniti.</p>
+                                laudantium omnis suscipit neque asperiores doloremque repellat nam error itaque
+                                provident modi expedita alias dolore non voluptatibus perferendis deleniti.</p>
                             <a href="#" class="btn">get started</a>
                         </div>
                     </div>
                 </div>
+
             </div>
 
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
         </div>
+
+
 
     </section>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
