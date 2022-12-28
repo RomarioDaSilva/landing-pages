@@ -45,3 +45,27 @@ var swiper = new Swiper(".home-slider", {
       prevEl: ".swiper-button-prev",
     },
 });
+
+var swiper = new Swiper(".product-slider", {
+    loop:true,
+    grabCursor:true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+          },
+        640: {
+          slidesPerView: 2,
+        },
+        728: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 4,
+        },
+      },
+});
