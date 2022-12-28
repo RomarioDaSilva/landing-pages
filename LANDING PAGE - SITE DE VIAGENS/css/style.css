@@ -57,6 +57,13 @@ section {
     color: #FFF;
 }
 
+.heading {
+    text-align: center;
+    margin-bottom: .5rem;
+    font-size: 4rem;
+    color: #10221b;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -68,6 +75,11 @@ section {
     align-items: center;
 }
 
+.header.active {
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
 
 .logo {
     margin-right: auto;
@@ -184,7 +196,7 @@ form label:hover {
     padding: 0;
 }
 
-.box {
+.swiper-slide .box {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -194,27 +206,27 @@ form label:hover {
     padding: 2rem 9%;
 }
 
-.box.second {
+.swiper-slide .box .second {
     justify-content: flex-start;
 }
 
-.content {
+.swiper-slide .box .content {
     width: 50rem;
 }
 
-.content span {
+.swiper-slide .box .content span {
     font-size: 4rem;
     color: #10221b;
 }
 
-.content h3 {
+.swiper-slide .box .content h3 {
     font-size: 6rem;
     color: #219150;
     padding-top: .5rem;
     text-transform: uppercase;
 }
 
-.content p {
+.swiper-slide .box .content p {
     line-height: 2;
     color: #10221b;
     font-size: 1.5rem;
@@ -227,9 +239,72 @@ form label:hover {
     color: #10221b;
 }
 
+.category .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
 
+.category .box-container .box {
+    text-align: center;
+    padding: 2rem;
+}
 
+.category .box-container .box img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
 
+.category .box-container .box h3 {
+    font-size: 2rem;
+    color: #219150;
+}
+
+.category .box-container .box p {
+    font-size: 1.6rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.about {
+    background: #eee;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .image {
+    flex: 1 1 40rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about .image img {
+    width: 100%;
+    box-shadow: 04rem 4rem 0 rgba(0, 0, 0, .1);
+}
+
+.about .content {
+    flex: 1 1 40rem;
+}
+
+.about .content h3 {
+    font-size: 3rem;
+    color: #219150;
+}
+
+.about .content p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+}
 
 
 
@@ -256,6 +331,7 @@ form label:hover {
 @media (max-width:991px) {
     html {
         font-size: 55%;
+        scroll-padding-top: 7rem;
     }
 
     .home .box {
