@@ -609,6 +609,116 @@ form label:hover {
     color: #10221b;
 }
 
+.newsletter {
+    background: #eee;
+  }
+  
+  .newsletter .content {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .newsletter .content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #10221b;
+  }
+  
+  .newsletter .content form {
+    margin-top: 2rem;
+    background: #fff;
+    border-radius: 5rem;
+    border: 0.2rem solid #10221b;
+    padding: .7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .newsletter .content form .email {
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: #10221b;
+    padding: 0 1.3rem;
+  }
+  
+  .newsletter .content form .btn {
+    margin-top: 0;
+    border-radius: 5rem;
+    background: #10221b;
+    color: #fff;
+  }
+  
+  .newsletter .content form .btn:hover {
+    background: none;
+    color: #10221b;
+  }
+  
+  .clients .silde {
+    text-align: center;
+  }
+  
+  .clients .silde img {
+    height: 12rem;
+  }
+  
+  .footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    color: #fff;
+  }
+  
+  .footer .box-container .box a {
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box a i {
+    color: #219150;
+    padding-right: .5rem;
+  }
+  
+  .footer .box-container .box a:hover {
+    color: #219150;
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .footer .credit span {
+    color: #219150;
+  }
 
 
 
@@ -617,99 +727,96 @@ form label:hover {
 
 
 
-
-
-
-@media (max-width:1200px) {
+  @media (max-width: 1200px) {
     .header {
-        padding: 2rem;
+      padding: 2rem;
     }
-
     section {
-        padding: 3rem 2rem;
+      padding: 3rem 2rem;
     }
-}
-
-@media (max-width:991px) {
+  }
+  
+  @media (max-width: 991px) {
     html {
-        font-size: 55%;
-        scroll-padding-top: 7rem;
+      font-size: 55%;
+      scroll-padding-top: 7rem;
     }
-
     .home .box {
-        padding: 2rem;
-        justify-content: center;
-        background-position: right !important;
+      padding: 2rem;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: right !important;
     }
-
-    .box.second {
-        justify-content: center;
-        background-position: left !important;
+    .home .box.second {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: left !important;
     }
-
-    .content {
-        text-align: center;
+    .home .box .content {
+      text-align: center;
     }
-
-    .content span {
-        font-size: 3rem;
+    .home .box .content span {
+      font-size: 3rem;
     }
-
-    .content h3 {
-        font-size: 4rem;
+    .home .box .content h3 {
+      font-size: 4rem;
     }
-}
-
-@media (max-width:768px) {
-    #menu-btn {
-        display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .header #menu-btn {
+      display: inline-block;
     }
-
-    .navbar {
-        position: fixed;
-        top: 0;
-        left: -110%;
-        background: #FFF;
-        z-index: 10000;
-        width: 35rem;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        flex-flow: column;
-        justify-content: center;
+    .header .navbar {
+      position: fixed;
+      top: 0;
+      left: -110%;
+      background: #fff;
+      z-index: 10000;
+      width: 35rem;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
-
-    .active {
-        left: 0;
-        box-shadow: 0 0 0 100vw rgba(0, 0, 0, .8);
+    .header .navbar.active {
+      left: 0;
+      -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+              box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     }
-
-    a {
-        margin: 1rem 0;
-        font-size: 3rem;
+    .header .navbar a {
+      margin: 1rem 0;
+      font-size: 3rem;
     }
-
-    #nav-close {
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 2rem;
-
+    .header .navbar #nav-close {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
     }
-
     .swiper-button-next::after,
     .swiper-button-prev::after {
-        display: none;
+      display: none;
     }
-
-}
-
-@media (max-width:450px) {
+  }
+  
+  @media (max-width: 450px) {
     html {
-        font-size: 50%;
+      font-size: 50%;
     }
-
     .heading {
-        font-size: 3rem;
+      font-size: 3rem;
     }
-}
+  }
