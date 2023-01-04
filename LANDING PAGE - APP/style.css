@@ -31,6 +31,25 @@ html {
     scroll-padding: 4rem;
 }
 
+section {
+    padding: 3rem 9%;
+  }
+
+.btn {
+    display: inline-block;
+    padding: .7rem 3rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--gradient);
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1, 7rem;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
 header {
     position: fixed;
     top: 0;
@@ -68,6 +87,47 @@ header .navbar a:hover {
     display: none;
 }
 
+.home{
+    background: url(img/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .home .content{
+    padding-top: 5rem;
+    max-width:70rem;
+    margin:0 auto;
+  }
+  
+  .home .content h3{
+    font-size: 6.5rem;
+    color:#fff;
+  }
+  
+  .home .content p{
+    font-size: 1.7rem;
+    color:#eee;
+    padding:1rem 0;
+  }
+  
+  .home .swiper {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .home .swiper-slide {
+    width: 30rem;
+    height: 50rem;
+  }
+  
+  .home .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
 
 
 
@@ -84,11 +144,6 @@ header .navbar a:hover {
 
 
 
-
-
-body {
-    height: 300rem;
-}
 
 
 
@@ -101,6 +156,10 @@ body {
 
     header {
         padding: 2rem 4%;
+    }
+
+    section {
+        padding: 3rem 4%;
     }
 }
 
@@ -139,6 +198,14 @@ body {
 
     .fa-times {
         transform: rotate(180deg);
+    }
+
+    .home .content h3 {
+        font-size: 4rem;
+    }
+
+    .home .content p {
+        font-size: 1.5rem;
     }
 }
 
