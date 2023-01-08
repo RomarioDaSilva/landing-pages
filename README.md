@@ -25,8 +25,11 @@ outras feitas totalmente por mim.
 
 - [x] Landing Pages com HTML, CSS E JAVASCRIPT.
 - [x] Landing Pages responsivas.
-- [ ] Landing Pages em ingles
+- [x] Landing Pages em ingles
 
+- [x] Landing Pages com dificuldade básica
+- [ ] Landing Pages com dificuldade média
+- [ ] Landing Pages com dificuldade avançada
 ---
 
 
@@ -35,7 +38,9 @@ outras feitas totalmente por mim.
 As seguintes ferramentas foram usadas na construção dos projetos:
 * HTML
 * CSS
-* JAVASCRIPT
+* JAVASCRIPT - https://www.javascript.com/
+* SWIPERJS - https://swiperjs.com/
+* FONT AWESOME - https://cdnjs.com/libraries/font-awesome
  
 ---
 
